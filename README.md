@@ -1,4 +1,4 @@
-# root-module
+# rootmodule
 Find root module with folder and package.json.
 
 ## Installation
@@ -6,13 +6,13 @@ Find root module with folder and package.json.
 Install via npm
 
 ```sh
-$ npm install root-module --save
+$ npm install rootmodule --save
 ```
 
 ## Usage
 
 ```
-var rootModule = require('root-module'); 
+var rootModule = require('rootmodule'); 
 var m = rootModule();
 
 console.log(m.module);
