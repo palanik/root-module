@@ -1,6 +1,6 @@
 {
   "name": "rootmodule",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Find root module with path and package.json",
   "main": "lib/index.js",
   "babel": {

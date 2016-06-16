@@ -31,7 +31,8 @@ function rootModule(mod) {
   return {
     module: m,
     folder,
-    packageFile: findFile(folder, 'package.json')
+    packageFile: findFile(folder, 'package.json'),
+    findFile: findFile.bind(null, folder)
   };
 }
 
