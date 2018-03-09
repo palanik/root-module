@@ -1,6 +1,6 @@
 {
   "name": "root-module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Find root module with path and package.json",
   "main": "lib/index.js",
   "babel": {
@@ -30,7 +30,7 @@
   "scripts": {
     "lint": "eslint src/**",
     "build": "babel --presets es2015 src -d lib",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "keywords": [
     "root",
