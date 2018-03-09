@@ -3,7 +3,7 @@ import fs from 'fs';
 
 function findRootModule(mod) {
   const m = mod || module;
-  return (m.parent ? findRootModule(m.parent) : m);
+  return ((m.parent && m.id !== m.parent.id) ? findRootModule(m.parent) : m);
 }
 
 function findFile(curDir, filename) {
